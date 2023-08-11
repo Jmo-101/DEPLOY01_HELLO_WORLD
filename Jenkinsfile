@@ -4,12 +4,18 @@ pipeline {
   stages {
     stage ('Build') {
       steps {
-        sh "echo Run a command"
+        sh "echo Hello World"
      }
    }
     stage ('test') {
       steps {
-        sh "echo Run a command"
+        sh "echo Hello World"
+      }
+    
+    }
+     stage ('Fun') {
+      steps {
+        sh "echo Hello World"
       }
     
     }
